@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_cwiW8GRTEe63B_5ekfCbSg" name="DataMartInventory" id="_X8xtAGRTEe63B_5ekfCbSg" label="DataMartInventory" dataPackage="_c1IjEGRTEe63B_5ekfCbSg" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/DataMartInventory;" dbVersionString="JTDS" Port="1433" Username="yassine" Password="enc:system.encryption.key.v1:iaxBMgOGSU2CoQO3ERRrqYj4U0b4YahFns67/JeIWjyJn5E=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="DataMartInventory" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_cwiW8WRTEe63B_5ekfCbSg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_cxSk4GRTEe63B_5ekfCbSg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_cxSk4WRTEe63B_5ekfCbSg" tag="Status" value=""/>
+    <taggedValue xmi:id="_cxSk4mRTEe63B_5ekfCbSg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_cxSk42RTEe63B_5ekfCbSg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_cxSk5GRTEe63B_5ekfCbSg" tag="Description" value=""/>
+    <taggedValue xmi:id="_cxSk5WRTEe63B_5ekfCbSg" tag="Author" value=""/>
+    <taggedValue xmi:id="_cxSk5mRTEe63B_5ekfCbSg" tag="otherParameter"/>
+    <taggedValue xmi:id="_cyQOMGRTEe63B_5ekfCbSg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_cyQOMWRTEe63B_5ekfCbSg" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_cyQOMmRTEe63B_5ekfCbSg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_cwiW8mRTEe63B_5ekfCbSg" key="CONN_PARA_KEY_USERNAME" value="yassine"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_c1IjEGRTEe63B_5ekfCbSg" name="DataMartInventory" dataManager="_cwiW8GRTEe63B_5ekfCbSg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjEWRTEe63B_5ekfCbSg" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjEmRTEe63B_5ekfCbSg" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjE2RTEe63B_5ekfCbSg" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjFGRTEe63B_5ekfCbSg" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjFWRTEe63B_5ekfCbSg" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjFmRTEe63B_5ekfCbSg" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjF2RTEe63B_5ekfCbSg" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjGGRTEe63B_5ekfCbSg" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjGWRTEe63B_5ekfCbSg" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjGmRTEe63B_5ekfCbSg" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjG2RTEe63B_5ekfCbSg" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjHGRTEe63B_5ekfCbSg" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_c1IjHWRTEe63B_5ekfCbSg" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
