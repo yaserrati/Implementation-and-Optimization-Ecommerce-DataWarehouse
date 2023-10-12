@@ -5,7 +5,6 @@ AS RANGE LEFT FOR VALUES ('2021-09-28', '2022-09-28', '2023-09-28');
 
 
 
-
 ALTER DATABASE e_commerce ADD FILEGROUP [FG_sales_Archive]
 GO
 
@@ -133,3 +132,16 @@ WHERE
     AND pd.ProductCategory = 'Electronics'
 GROUP BY 
     dd.Year, pd.ProductCategory;
+
+
+
+-- affichage des information
+SELECT 
+    p.partition_number AS partition_number,
+    f.name AS file_group, 
+    p.rows AS row_count
+FROM sys.partitions p
+JOIN sys.destination_data_spaces dds ON p.partition_number = dds.destination_id
+JOIN sys.filegroups f ON dds.data_space_id = f.data_space_id
+WHERE OBJECT_NAME(OBJECT_ID) = 'SalesFactPartitioned'
+order by partition_number;

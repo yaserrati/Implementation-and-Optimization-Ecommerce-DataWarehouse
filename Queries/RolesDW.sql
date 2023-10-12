@@ -1,7 +1,6 @@
 USE e_commerce;
 
-
-CREATE LOGIN Hassane WITH PASSWORD = 'jane/()';
+CREATE LOGIN Hassane WITH PASSWORD = 'hassan2022';
 CREATE LOGIN Yaserrati WITH PASSWORD = 'yaserrati_7';
 
 -------
